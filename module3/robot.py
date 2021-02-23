@@ -2,7 +2,7 @@ import math
 from functools import reduce
 
 '''
-A Robot moves in a Plane starting from the origin point (0,0). The robot can move
+Q1. A Robot moves in a Plane starting from the origin point (0,0). The robot can move
 toward UP, DOWN, LEFT, RIGHT. The trace of Robot movement is as given
 following:
 UP 5
