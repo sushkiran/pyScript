@@ -10,10 +10,7 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 
 
 def q6_divisible():
-    data = []
-    for number in range(2000, 3200):
-        if number % 7 == 0 and number % 5 != 0:
-            data.append(number)
+    data = list(filter(lambda x: x % 7 == 0 and x % 5 != 0, range(2000, 3200)))
     print(data)
 
 
@@ -68,3 +65,6 @@ if __name__ == '__main__':
     # q6_divisible()
     # q7_factorial()
     q8_lambda()
+
+
+
