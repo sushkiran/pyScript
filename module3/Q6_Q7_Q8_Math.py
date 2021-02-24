@@ -1,21 +1,6 @@
 import math
 from functools import reduce
 
-'''
-Q2. Data of XYZ company is stored in sorted list. Write a program for searching
-specific data from that list.
-Hint: Use if/elif to deal with conditions.
-'''
-
-
-def q2_xyz_sorted():
-    data = ['a1', 'a2', 'a3', 'a4', 'a5']
-    to_search = 'a4'
-    if to_search in data:
-        print('found', to_search)
-    else:
-        print(to_search, 'cannot be found')
-
 
 '''
 Q6. Write a program which will find all such numbers which are divisible by 7 
@@ -44,12 +29,10 @@ def recur_factorial(number):
         return number
     else:
         return number * recur_factorial(number - 1)
-    # take input from the user
 
 
 def q7_factorial():
     num = int(input("Enter a number: "))
-    # check is the number is negative
     if num < 0:
         print("Sorry, factorial does not exist for negative numbers")
     elif num == 0:
@@ -82,7 +65,6 @@ def q8_lambda():
 
 
 if __name__ == '__main__':
-    # q2_xyz_sorted()
     # q6_divisible()
     # q7_factorial()
     q8_lambda()
