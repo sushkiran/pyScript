@@ -37,14 +37,17 @@ Then, the output should be:
 again and hello makes perfect practice world
 '''
 
+
 def q12_sort_input():
     input_str = input('Enter strings to sort (comma separated): ')
     print('The sorted output is:', sorted(set(input_str.split(' '))))
+
 
 '''
 All combined: Q10 + Q11 + Q12. Use below sample to test:
 hello,world,and,practice,makes,perfect,and,hello,world,again
 '''
+
 
 def all_combined():
     input_str = input('Enter string (comma separated): ')
@@ -61,6 +64,3 @@ if __name__ == '__main__':
     # q11_capitalize_input()
     # q12_sort_input()
     all_combined()
-
-
-
