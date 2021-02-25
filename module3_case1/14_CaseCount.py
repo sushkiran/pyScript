@@ -8,7 +8,7 @@ LOWER CASE 9
 """
 
 
-input_str = 'Hello world!'
+input_str = input("Enter string: ")
 
 print('Uppercase count:', len(list(filter(lambda x: x.isupper() is True, input_str))))
 print('Lowercase count:', len(list(filter(lambda x: x.islower() is True, input_str))))
