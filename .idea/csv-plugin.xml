@@ -38,7 +38,49 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\4_Numpy_Pandas\DataSets\DSScoreTerm1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_Numpy_Pandas\DataSets\MathScoreTerm1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_Numpy_Pandas\DataSets\PhysicsScoreTerm1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\4_Numpy_Pandas\DataSets\SalaryGender.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_Numpy_Pandas\DataSets\ScoreFinal.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_Numpy_Pandas\DataSets\middle_tn_schools.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_Numpy_Pandas\DataSets\sample-salesv2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

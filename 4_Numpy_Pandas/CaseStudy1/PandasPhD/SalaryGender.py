@@ -1,16 +1,16 @@
 """
-1. Extract data from the given A_SalaryGender CSV file and store the data from each column in a separate NumPy array
+1. Extract data from the given PandasPhD CSV file and store the data from each column in a separate NumPy array
 2. Find: (1) The number of men with a PhD (2) The number of women with a PhD
 3. Store the “Age” and “PhD” columns in one DataFrame
-    and delete the data of all people who don’t have a PhD from A_SalaryGender CSV file.
-4. Calculate the total number of people who have a PhD degree from A_SalaryGender CSV file.
+    and delete the data of all people who don’t have a PhD from PandasPhD CSV file.
+4. Calculate the total number of people who have a PhD degree from PandasPhD CSV file.
 """
 
 import numpy as np
 import pandas as pd
 
 '''
-1. Extract data from the given A_SalaryGender CSV file and store the data from each column in a separate NumPy array
+1. Extract data from the given PandasPhD CSV file and store the data from each column in a separate NumPy array
 '''
 
 df = pd.read_csv('SalaryGender.csv')
@@ -38,7 +38,7 @@ print('Total number of women with a PhD: ', female[female].shape[0])
 
 '''
 3. Store the “Age” and “PhD” columns in one DataFrame
-   and delete the data of all people who don’t have a PhD from A_SalaryGender CSV file.
+   and delete the data of all people who don’t have a PhD from PandasPhD CSV file.
 '''
 
 new_df = pd.DataFrame({'Age': np_age, 'PhD': np_PhD})
@@ -49,7 +49,7 @@ df.drop(df[cond].index, inplace=True)
 # print(df)
 
 '''
-4. Calculate the total number of people who have a PhD degree from A_SalaryGender CSV file.
+4. Calculate the total number of people who have a PhD degree from PandasPhD CSV file.
 '''
 
 print('\nTotal number of people with PhD degrees: ', df.shape[0])
