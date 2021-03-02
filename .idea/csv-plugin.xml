@@ -94,6 +94,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Rota\RotaGen.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Rota\TestMe.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\module3_case3\Customer.py">
           <value>
             <Attribute>
