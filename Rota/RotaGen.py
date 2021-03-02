@@ -23,7 +23,7 @@ base_record = {
     'Group': ['B'],
     'Cal_Primary': ['Naveen'],
     'Cal_Standby': ['Sushvin'],
-    'BAS_FinC': ['Divik']
+    'BAS_Finance': ['Divik']
 }
 df = pd.DataFrame(base_record)
 
@@ -34,7 +34,7 @@ Function Definitions
 """
 
 
-def get_next_group(grp):
+def next_group(grp):
     index = group_names.index(str(grp)) + 1
     if index < len(group_names):
         return group_names[index]
@@ -43,26 +43,11 @@ def get_next_group(grp):
         return group_names[0]
 
 
-def get_random_member(exclude_me):
+def choose_member(exclude_list):
     mask = []
     for member in calypso_team:
-        mask.append(member not in exclude_me)
+        mask.append(member not in exclude_list)
     return random.choice(list(calypso_team[mask]))
-
-
-def get_next_primary(group):
-    exclude_me = group_members[group]
-    return get_random_member(exclude_me)
-
-
-def get_next_standby(primary):
-    exclude_me = [primary]
-    return get_random_member(exclude_me)
-
-
-def get_next_bas(group, primary, standby):
-    exclude_me = [primary, standby, group_members[group]]
-    return get_random_member(exclude_me)
 
 
 if __name__ == '__main__':
@@ -71,11 +56,18 @@ if __name__ == '__main__':
 
     for num in range(num_weeks):
         date += dt.timedelta(7)
-        group = get_next_group(group)
-        primary = get_next_primary(group)
-        standby = get_next_standby(primary)
-        bas = get_next_bas(group, primary, standby)
+        group = next_group(group)
+
+        exclude_me = list(group_members[group])
+        primary = choose_member(exclude_me)
+
+        exclude_me.append(primary)
+        bas = choose_member(exclude_me)
+
+        exclude_me = [primary, bas]
+        standby = choose_member(exclude_me)
+
         df.loc[len(df.index)] = [date, group, primary, standby, bas]
 
     print(df)
-    df.to_excel('c5_rota.xlsx')
+    #df.to_excel('c5_rota.xlsx')

@@ -1,25 +1,16 @@
 import numpy as np
-import pandas as pd
 
-arr = np.asarray(['Naveen', 'Sushvin', 'Divik', 'Kapil'])
-#not_me = ['Kapil','Sushvin']
-not_me = 'Divik'
+#a = [['Naveen'], ['Kapil', 'Sushvin']]
+a = ['Naveen']
+'''b = np.array(a,dtype=object)
+c = b.reshape(-1)
+print(c)
+print(list(c))'''
 
-mask = []
-for element in arr:
-    mask.append(element not in not_me)
+print(len(a))
 
-print(list(arr[mask]))
-
-
-
-
-
-'''
-groups={
-    'A': ['Divik'],
-    'B': ['Kapil','Sushvin'],
-    'C': ['Naveen']
-}
-print(groups['B'])
-'''
+f = []
+for x in a:
+    for y in x:
+        f.append(y)
+print(f)
