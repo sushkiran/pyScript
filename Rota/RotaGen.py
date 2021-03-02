@@ -70,4 +70,4 @@ if __name__ == '__main__':
         df.loc[len(df.index)] = [date, group, primary, standby, bas]
 
     print(df)
-    #df.to_excel('c5_rota.xlsx')
+    df.to_excel('c5_rota.xlsx')
