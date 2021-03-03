@@ -1,16 +1,8 @@
-import numpy as np
+me = {2, 3, 4, 5, 6}
 
-#a = [['Naveen'], ['Kapil', 'Sushvin']]
-a = ['Naveen']
-'''b = np.array(a,dtype=object)
-c = b.reshape(-1)
-print(c)
-print(list(c))'''
+out = all(x in (4,5) for x in me)
+print(out)
 
-print(len(a))
-
-f = []
-for x in a:
-    for y in x:
-        f.append(y)
-print(f)
+you = (4,5,5,4)
+out = all(x in (4,5) for x in you)
+print(out)
