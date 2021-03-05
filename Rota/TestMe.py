@@ -1,8 +1,10 @@
-me = {2, 3, 4, 5, 6}
+import numpy as np
+import math
 
-out = all(x in (4,5) for x in me)
-print(out)
-
-you = (4,5,5,4)
-out = all(x in (4,5) for x in you)
-print(out)
+me = {2, 3, 4, 5, 6, 7}
+print(me)
+me = np.array(list(me))
+print(me)
+print(me.mean())
+print(math.ceil(me.mean()))
+print(math.floor(me.mean()))

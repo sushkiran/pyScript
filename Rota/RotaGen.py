@@ -80,7 +80,7 @@ def process():
         print(df)
         print()
         print(distribution)
-        df.to_excel('c5_rota.xlsx')
+        df.to_excel('c5_rota.xlsx', index=False)
     else:
         process()
 
