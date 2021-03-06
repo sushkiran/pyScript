@@ -16,11 +16,11 @@ INPUTS in Phase2
 ----------------
 '''
 # 1-march to 1-april
-from_date = dt.date(2021, 3, 1)
+from_date = dt.date(2021, 2, 1)
 to_date = dt.date(2021, 4, 1)
 
 # candidate name
-name = 'Sushvin'
+name = 'Naveen'
 
 '''
 --------------------
@@ -59,17 +59,19 @@ if __name__ == '__main__':
 
     result_df = generate('Cal_Standby')
     result_df = result_df.append(generate('BAS_Finance'), ignore_index=True)
-    result_df.sort_values(by='Date')
+    result_df = result_df.sort_values(by='Date')
+
+    result_df = result_df.reset_index()
+    del result_df['index']
+
+    begin = result_df['Date'].min().strftime('%d-%m-%Y')
+    end = result_df['Date'].max().strftime('%d-%m-%Y')
+
+    result_df['Date'] = pd.to_datetime(result_df['Date']).apply(lambda x: x.strftime('%a %d-%m-%Y'))
     print(result_df)
 
-    # write combines claim to out-file
-    out_file_name = filename.format(name, str(from_date), str(to_date))
+    # write combined claim to out-file
+    out_file_name = filename.format(name, begin, end)
     result_df.to_excel(out_file_name, index=False)
+    print(out_file_name)
 
-# TODO
-'''
-1. file name from date & to date should come from result_df, first & last records.
-3. Excel output should be limited to only Date, to truncate the timestamps.
-5. testing on smaller & bigger date ranges.
-6. negative testing, i.e. No calypso support and/or no bas support.
-'''
