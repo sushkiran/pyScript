@@ -17,7 +17,7 @@ INPUTS in Phase2
 '''
 # 1-march to 1-april
 from_date = dt.date(2021, 2, 1)
-to_date = dt.date(2021, 4, 1)
+to_date = dt.date(2021, 7, 1)
 
 # candidate name
 name = 'Naveen'
@@ -48,7 +48,7 @@ def generate(for_what):
 
     ref_str = 'Calypso Standby Support' if for_what == 'Cal_Standby' else 'BAS Standby Support'
     out_df = out_df.assign(Reference=ref_str)
-    out_df = out_df.assign(Amount='30')
+    out_df = out_df.assign(Amount=30)
 
     return out_df
 
@@ -68,6 +68,7 @@ if __name__ == '__main__':
     end = result_df['Date'].max().strftime('%d-%m-%Y')
 
     result_df['Date'] = pd.to_datetime(result_df['Date']).apply(lambda x: x.strftime('%a %d-%m-%Y'))
+    result_df.loc[len(result_df.index)] = ['', 'Total', result_df['Amount'].sum()]
     print(result_df)
 
     # write combined claim to out-file
