@@ -2,6 +2,7 @@ import datetime as dt
 import pandas as pd
 import numpy as np
 from numpy import random
+import matplotlib.pyplot as plt
 
 """
 -----------------------------
@@ -77,10 +78,15 @@ def process():
 
     boolean_result = all(each_val in (4, 5) for each_val in unique_dist)
     if boolean_result:
-        print(df)
-        print()
-        print(distribution)
+        print(df, distribution)
         df.to_excel('c5_rota.xlsx', index=False)
+
+        plt.figure(figsize=(3, 3))
+        values = distribution.sum(axis=1)
+        labels = np.asarray(distribution.index.values.flat)
+
+        plt.pie(values, labels=labels)
+        plt.show()
     else:
         process()
 
