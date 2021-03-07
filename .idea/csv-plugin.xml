@@ -164,6 +164,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\5_Data_Visualisation\CaseStudy2\BigMart.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataSets\Cars2015.csv">
           <value>
             <Attribute>
