@@ -171,6 +171,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\9_Projects\1_GoogleSearch.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\9_Projects\2_Location.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\9_Projects\3_Weather.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataSets\Cars2015.csv">
           <value>
             <Attribute>
