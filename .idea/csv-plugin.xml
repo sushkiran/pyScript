@@ -171,6 +171,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\6_Data_Manipulation\CaseStudy2\Salaries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\6_Data_Manipulation\CaseStudy2\Salaries.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\6_Data_Manipulation\FileOperations.py">
           <value>
             <Attribute>
