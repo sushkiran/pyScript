@@ -171,6 +171,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\6_Data_Manipulation\FileOperations.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\6_Data_Manipulation\PandaSeries.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\6_Data_Manipulation\testMe.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\9_Projects\1_GoogleSearch.py">
           <value>
             <Attribute>
@@ -192,6 +213,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataSets\AllCountries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataSets\Cars2015.csv">
           <value>
             <Attribute>
@@ -207,6 +235,13 @@
           </value>
         </entry>
         <entry key="\DataSets\Hurricanes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataSets\Salaries.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
