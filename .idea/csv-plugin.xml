@@ -276,6 +276,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataSets\Divvy_Stations_2016_Q3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataSets\Divvy_Stations_2016_Q4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataSets\Hurricanes.csv">
           <value>
             <Attribute>
