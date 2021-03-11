@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\3_DeepDive\CaseStudy3\FairDealCustomerData.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\4_Numpy_Pandas\CaseStudy1\01234_Salary.py">
           <value>
             <Attribute>
@@ -25,6 +32,13 @@
           </value>
         </entry>
         <entry key="\4_Numpy_Pandas\CaseStudy1\PandasSchool\SchoolData.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_Numpy_Pandas\CaseStudy1\PandasSchool\middle_tn_schools.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -203,6 +217,13 @@
           <value>
             <Attribute>
               <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\7_WebMap_Dev\CaseStudy1\MailMerge.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
