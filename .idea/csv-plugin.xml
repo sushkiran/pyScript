@@ -255,6 +255,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\7_WebMap_Dev\CaseStudy2\BikesHeatMap.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\7_WebMap_Dev\CaseStudy2\CrimeAnalysis.py">
           <value>
             <Attribute>
@@ -270,6 +277,13 @@
           </value>
         </entry>
         <entry key="\7_WebMap_Dev\CaseStudy2\Divvy_Stations_2016_Q4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\7_WebMap_Dev\CaseStudy2\NewAnalysis.py">
           <value>
             <Attribute>
               <option name="separator" value="," />

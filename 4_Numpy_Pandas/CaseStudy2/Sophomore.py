@@ -47,9 +47,9 @@ race = {
     'Hispanic': 3,
     'White American': 4
 }
-df_data.Ethinicity = df_data.Ethinicity.map_box(race)
-df_math.Ethinicity = df_math.Ethinicity.map_box(race)
-df_phys.Ethinicity = df_phys.Ethinicity.map_box(race)
+df_data.Ethinicity = df_data.Ethinicity.map_object(race)
+df_math.Ethinicity = df_math.Ethinicity.map_object(race)
+df_phys.Ethinicity = df_phys.Ethinicity.map_object(race)
 
 # Enhancement 2. Fill the missing score for a student to the average of the class
 df_data = df_data.fillna(df_data.Score.mean())
