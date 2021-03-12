@@ -34,3 +34,7 @@ Enhancements for code
 3.  BONUS ASSIGNMENT – Uncomment the code see the changes
 
 """
+
+import folium
+import pandas as pd
+
