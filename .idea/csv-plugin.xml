@@ -269,6 +269,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\7_WebMap_Dev\CaseStudy2\DivvyBikes\Divvy_Stations_2016_Q3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\7_WebMap_Dev\CaseStudy2\DivvyBikes\Divvy_Stations_2016_Q4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\7_WebMap_Dev\CaseStudy2\Divvy_Stations_2016_Q3.csv">
           <value>
             <Attribute>
@@ -319,6 +333,41 @@
           </value>
         </entry>
         <entry key="\7_WebMap_Dev\VolcanoUSA\webmap.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\8_OpenCV_Bokeh\BeautifulSoup\1_FetchHL.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\8_OpenCV_Bokeh\BeautifulSoup\2_Download_videos.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\8_OpenCV_Bokeh\BeautifulSoup\5_WebScraping.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\8_OpenCV_Bokeh\BeautifulSoup\Congress.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\8_OpenCV_Bokeh\BeautifulSoup\ThomasCook.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
